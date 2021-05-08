@@ -20,7 +20,7 @@ function App() {
       <Logo />
 
       {/* <h1>Aplicatie</h1> */}
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         {/* <Link to="/">Login</Link>
         <Link to="/Components/Home">Home</Link>
         <Link to="/Components/Movie">Movie</Link>
