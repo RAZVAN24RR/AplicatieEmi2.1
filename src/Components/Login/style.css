@@ -1,0 +1,165 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"); */
+* {
+  margin: 20px;
+  padding: 0;
+}
+.LoginContainer {
+  width: 60%;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.LoginContent {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  margin-top: 16vh;
+  border: 3px solid #282727;
+  border-radius: 5px;
+  background-color: black;
+  z-index: 1000;
+}
+#HeaderLogin {
+  width: 100%;
+}
+#LoginTitlu {
+  color: #fff;
+  font-size: 2vw;
+  text-align: left;
+  font-weight: normal;
+}
+.UserName {
+  width: 100%;
+  text-align: left;
+  font-size: 1.5vw;
+  margin-top: 5vh;
+  /* font-family: "Merriweather Sans", sans-serif; */
+  font-weight: 500;
+}
+#UserInput {
+  width: 90%;
+  height: 6vh;
+  margin-top: 5vh;
+  background: transparent;
+  border: 2px solid #d6ed17;
+  float: left;
+}
+.Password {
+  width: 100%;
+  margin-top: 15vh;
+  font-size: 1.5vw;
+  font-family: "Merriweather Sans", sans-serif;
+  color: #d6ed17;
+  font-weight: 500;
+  text-align: left;
+}
+
+#PassInput {
+  width: 90%;
+  height: 6vh;
+  margin-top: 5vh;
+  background: transparent;
+  border: 2px solid #d6ed17;
+  float: left;
+}
+#ButonSign {
+  width: 90%;
+  border-radius: 0;
+  background-color: #d6ed17;
+  color: #000000;
+  font-size: 1vw;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-right: auto;
+  display: flex;
+  justify-content: left;
+  margin-top: 15vh;
+  padding: 10px;
+}
+#ButonSign:hover {
+  background-color: #fff;
+}
+.ParagrafTitlu {
+  color: #fff;
+  margin-top: 30vh;
+  font-size: 1.5vw;
+  text-align: center;
+}
+.Paragraf {
+  width: 100%;
+  color: gray;
+  font-size: 1vw;
+  z-index: 10000;
+}
+@media only screen and (max-width: 960px) {
+  .LoginContent {
+    border: none;
+    width: 100%;
+    margin-top: 10vh;
+  }
+  #LoginTitlu {
+    font-size: 3vw;
+  }
+  .UserName {
+    font-size: 3vw;
+  }
+  .Password {
+    font-size: 2vw;
+  }
+  #ButonSign {
+    font-size: 3vw;
+  }
+  .ParagrafTitlu {
+    margin-top: 20vh;
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .Paragraf {
+    width: 80%;
+    font-size: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .LoginContainer {
+    width: 100%;
+    margin-top: 10vh;
+  }
+  .LoginContent {
+    border: none;
+    width: 100%;
+    margin-top: 0;
+    background: transparent;
+  }
+  #HeaderLogin {
+    width: 100%;
+    margin-top: 15vh;
+  }
+  #LoginTitlu {
+    font-size: 6vw;
+    letter-spacing: 4px;
+  }
+  .UserName {
+    font-size: 4.5vw;
+  }
+  .Password {
+    font-size: 4.5vw;
+  }
+  #ButonSign {
+    font-size: 4.5vw;
+  }
+  .ParagrafTitlu {
+    margin-top: 10vh;
+    font-size: 4vw;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .Paragraf {
+    width: 80%;
+    font-size: 3.5vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

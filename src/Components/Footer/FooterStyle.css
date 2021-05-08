@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&family=Merriweather+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.Footer {
+  color: white;
+  background-color: #282727;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  margin-top: 50px;
+  grid-template-columns: 30% 30% 30%;
+}
+.Lista {
+  color: #d6ed17;
+  list-style: none;
+  text-decoration: underline;
+  font-style: italic;
+  cursor: pointer;
+}
+#LogoFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ImgFooter {
+  width: 5vw;
+}
+#HeaderFooter {
+  width: auto;
+  font-size: 2vw;
+}
+#GalbenFooter {
+  color: #d6ed17;
+  font-style: italic;
+}
+.Lista .ListaElement {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1vw;
+  padding: 10px;
+}
+.ListaSocial li i:hover {
+  color: #d6ed17;
+}
+.Social {
+  background-color: #282727;
+  color: #fff;
+  display: flex;
+}
+.ListaSocial {
+  color: #fff;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2vw;
+}
+.ListaSocial li {
+  list-style: none;
+  padding: 1vw;
+}
+#Autor {
+  background-color: #282727;
+  color: black;
+  font-size: 1vw;
+  padding: 15px;
+  color: #fff;
+  font-family: "Merriweather Sans", sans-serif;
+}
+@media only screen and (max-width: 960px) {
+  .Lista .ListaElement {
+    font-size: 2vw;
+  }
+
+  #ImgFooter {
+    width: 15vw;
+  }
+  #HeaderFooter {
+    font-size: 5vw;
+  }
+  #LogoFooter {
+    display: block;
+    margin-right: 7vw;
+    text-align: center;
+  }
+  .ListaSocial {
+    font-size: 2vw;
+  }
+  #Autor {
+    padding-bottom: 20px;
+    font-size: 1.5vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Lista .ListaElement {
+    font-size: 3vw;
+  }
+
+  #ImgFooter {
+    margin-left: 3vw;
+    width: 15vw;
+  }
+  #HeaderFooter {
+    font-size: 5vw;
+  }
+  #LogoFooter {
+    display: block;
+    margin-right: 7vw;
+    text-align: center;
+  }
+  .ListaSocial {
+    font-size: 3vw;
+    padding-bottom: 15px;
+  }
+  #Autor {
+    padding-bottom: 20px;
+    font-size: 2.5vw;
+  }
+}
