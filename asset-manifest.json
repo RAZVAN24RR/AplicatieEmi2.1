@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/AplicatieEmi2.1/static/css/main.a1ac6460.chunk.css",
+    "main.js": "/AplicatieEmi2.1/static/js/main.201323a6.chunk.js",
+    "main.js.map": "/AplicatieEmi2.1/static/js/main.201323a6.chunk.js.map",
+    "runtime-main.js": "/AplicatieEmi2.1/static/js/runtime-main.66ee8932.js",
+    "runtime-main.js.map": "/AplicatieEmi2.1/static/js/runtime-main.66ee8932.js.map",
+    "static/css/2.650515b3.chunk.css": "/AplicatieEmi2.1/static/css/2.650515b3.chunk.css",
+    "static/js/2.11ca27a2.chunk.js": "/AplicatieEmi2.1/static/js/2.11ca27a2.chunk.js",
+    "static/js/2.11ca27a2.chunk.js.map": "/AplicatieEmi2.1/static/js/2.11ca27a2.chunk.js.map",
+    "static/js/3.58190a8a.chunk.js": "/AplicatieEmi2.1/static/js/3.58190a8a.chunk.js",
+    "static/js/3.58190a8a.chunk.js.map": "/AplicatieEmi2.1/static/js/3.58190a8a.chunk.js.map",
+    "index.html": "/AplicatieEmi2.1/index.html",
+    "static/css/2.650515b3.chunk.css.map": "/AplicatieEmi2.1/static/css/2.650515b3.chunk.css.map",
+    "static/css/main.a1ac6460.chunk.css.map": "/AplicatieEmi2.1/static/css/main.a1ac6460.chunk.css.map",
+    "static/js/2.11ca27a2.chunk.js.LICENSE.txt": "/AplicatieEmi2.1/static/js/2.11ca27a2.chunk.js.LICENSE.txt",
+    "static/media/Logo.71a3dd76.png": "/AplicatieEmi2.1/static/media/Logo.71a3dd76.png",
+    "static/media/OptimusCover.537f419d.jpg": "/AplicatieEmi2.1/static/media/OptimusCover.537f419d.jpg",
+    "static/media/primereact.min.css": "/AplicatieEmi2.1/static/media/color.6441e63a.png",
+    "static/media/primeicons.css": "/AplicatieEmi2.1/static/media/primeicons.e61f3495.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66ee8932.js",
+    "static/css/2.650515b3.chunk.css",
+    "static/js/2.11ca27a2.chunk.js",
+    "static/css/main.a1ac6460.chunk.css",
+    "static/js/main.201323a6.chunk.js"
+  ]
+}
